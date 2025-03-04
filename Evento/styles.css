@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 50px;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #000000;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #aaa5ae;
+}
+
+.info {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+li {
+    font-size: 18px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #f0e6ff;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+    background: #e0e0e0;
+}
+
+#magicBox {
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#magicBox:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
